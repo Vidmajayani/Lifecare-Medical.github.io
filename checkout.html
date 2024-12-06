@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="LifeCare Medical Hospital, medical care, healthcare services, emergency cre, maternity Services, outpatient services, compassionate care, Patient-centered care, high-quality medical services.">
+    <meta name="description" content="This website is all about LifeCare Medical Hospital.">
+    <link rel="stylesheet" href="./css_styles/style2.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="Images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>The LifeCare Medical Hospital of Sri Lanka</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="Images/LOGO.webp" alt="hospital Logo" loading="lazy">
+                <h1>LIFECARE</h1>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="doctors.html">DOCTORS</a></li>
+                <li><a href="consulting.html">CONSULTING</a></li>
+                <li><a href="pharmacy.html">PHARMACY</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Order Summary Section -->
+        <section id="order-summary-section">
+            <h2 id="order-summary-title">ORDER SUMMARY</h2>
+            <table id="checkout-table">
+                <thead>
+                    <tr>
+                        <th>Medicine Name</th>
+                        <th>Total Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Cart items will be dynamically added here -->
+                </tbody>
+            </table>
+            <p id="total-checkout-price">Total Price: Rs. 0.00</p>
+        </section>
+
+
+        <!-- Delivery and Payment Form -->
+        <section>
+            <h2 id="checkout-form-title">DELIVERY & PAYMENT DETAILS</h2>
+            <form id="checkout-form">
+                <fieldset>
+                    <legend>PERSONAL INFORMATION</legend>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>DELIVERY INFORMATION</legend>
+                    <label for="address">Delivery Address:</label>
+                    <textarea id="address" name="address" placeholder="Enter your address" rows="4" required></textarea>
+        
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your city" required>
+        
+                    <label for="zip">ZIP Code:</label>
+                    <input type="text" id="zip" name="zip" placeholder="Enter your ZIP code" required>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Payment Information</legend>
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment" required>
+                        <option value="">Select a payment method</option>
+                        <option value="card">Credit/Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="cash">Cash on Delivery</option>
+                    </select>
+        
+                    <fieldset id="card-details" style="display: none;">
+                        <legend>Card Payment Details</legend>
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="Enter your card number">
+        
+                        <label for="expiry-date">Expiry Date:</label>
+                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY">
+        
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="Enter your CVV">
+                    </fieldset>
+                </fieldset>
+        
+                <button type="button" id="submit">Pay Now</button>
+            </form>
+        
+            <!-- Thank You Message -->
+            <div id="thankYouMessage" style="display: none;">
+                <p id="thankYouText"></p>
+            </div>
+        </section>              
+    </main>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <img src="Images/logo_for_footer.webp" alt="LifeCare Medical Logo" class="footer-logo">
+                <p>LifeCare Medical Hospital stands as a leader in Sri Lankan healthcare, renowned for its exceptional standards of patient safety and innovative medical services. With a firm commitment to delivering compassionate care and a focus on continuous improvement, we consistently provide excellent health outcomes and have earned the trust of both local and international communities.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="aboutus.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="doctors.html">DOCTORS</a>
+                <a href="consulting.html">CONSULTING</a>
+                <a href="pharmacy.html">PHARMACY</a>
+            </div>
+    
+            <div class="footer-contacts">
+                <h3>NETWORK CONTACTS</h3>
+                <ul>
+                    <li>LifeCare Colombo: +94 11 555 4400</li>
+                    <li>LifeCare Kandy: +94 11 777 3300</li>
+                    <li>LifeCare Galle: +94 11 222 3355</li>
+                    <li>LifeCare Wattala: +94 11 444 3377</li>
+                </ul>
+            </div>
+    
+            <div class="footer-socials">
+                <h3>FOLLOW US ON</h3>
+                <div class="social-icons">
+                    <div class="column-left">
+                        <a href="https://www.facebook.com/login.php/"><img src="Images/facebook-icon.webp" alt="facebook"></a>
+                        <a href="https://web.whatsapp.com/"><img src="Images/whatsapp-icon.webp" alt="whatsapp"></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><img src="Images/email-icon.webp" alt="Email"></a>
+                    </div>
+                    <div class="column-right">
+                        <a href="https://messages.google.com/web/authentication"><img src="Images/messages-icon.webp" alt="messages"></a>
+                        <a href="https://support.google.com/accounts/answer/7222352?hl=en&co=GENIE.Platform%3DAndroid"><img src="Images/phone-icon.webp" alt="Phone"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="emergency-contact">
+            <h3>24/7 Emergency</h3>
+            <p><strong>Hotline: 1313</strong></p>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2024 LifeCare Medical Hospital. All Rights Reserved.</p>
+        </div>
+    </footer> 
+    
+    <script src="JAVA_SCRIPTS/checkout.js"></script>
+
+</body>
+</html>

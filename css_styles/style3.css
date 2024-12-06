@@ -1,0 +1,873 @@
+/* Registration Page CSS Design */
+
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: black;
+    padding: 5px 0;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    margin-right: 5px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 5px 5px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.nav-links ul li a:hover {
+    border: 2px solid white;
+}
+
+.hero-registration {
+    height: 80vh;
+    width: 100vw;
+    background-image: url(../Images/patient_regis.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000080;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h2 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.welcome-container {
+    background-color: #8cdaf6;
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: -30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.welcome-message p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+}
+
+.registration-topic {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #007a99;
+}
+
+.registration-topic h2 {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.registration-steps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    padding: 30px 20px;
+    width: 80%;
+}
+
+.image-container img {
+    max-width: 300px;
+    height: auto;
+    border: 2px solid #070707;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.steps-container {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.steps-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.steps-container ul li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: black;
+}
+
+
+/* Registration Form */
+.registration-form {
+    margin-top: 40px;
+    background-color: #000080;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.form-header h2 {
+    font-size: 28px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.form-header p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Fieldset Styles */
+.fieldset {
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.fieldset legend {
+    padding: 0 10px;
+    font-size: 20px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: wheat;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    transition: all 0.3s ease;
+}
+
+input[type="date"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #2a3b4c;
+    box-shadow: 0 0 5px rgba(42, 59, 76, 0.2);
+}
+
+/* Form Actions */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form-actions button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: #0fa5e0;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-reset {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+.form-actions button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #004d66; /* Main footer color */
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Four equal columns */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.footer-left,
+.footer-nav,
+.footer-contacts,
+.footer-socials {
+    text-align: left;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: #007a99;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 80%; /* Adjust this width to match the look from your screenshot */
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    background-color: #00ccff;
+}
+
+.footer-contacts ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contacts ul li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-contacts h3 {
+    color: white;
+}
+
+
+.footer-socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-socials h3 {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: wheat;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adjust gap between left and right columns */
+}
+
+.column-left, .column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between icons in each column */
+}
+
+.social-icons img {
+    width: 60px; /* Icon size */
+    height: 60px;
+}
+
+.social-icons a:hover img {
+    filter: invert(50%); /* Optional hover effect */
+}
+
+.emergency-contact {
+    background-color: black;
+    color: #00ffcc;
+    text-align: center;
+    padding: 20px;
+}
+
+.emergency-contact h3 {
+    color: #00ffcc;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #003d4d;
+    font-size: 14px;
+}
+
+
+
+
+
+
+/*PATIENT REGISTRATION PAGE*/
+
+/* Media Queries */
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .hero-registration {
+        font-size: 50px;
+        padding: 40px;
+        height: 70vh;
+    }
+
+    .hero-content h2 {
+        font-size: 80px;
+    }
+
+    .registration-form {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+
+    .form-header h2 {
+        font-size: 24px;
+    }
+
+    .form-header p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .hero-registration {
+        font-size: 50px;
+        padding: 40px;
+        height: 70vh;
+    }
+
+    .hero-content h2 {
+        font-size: 80px;
+    }
+
+    .registration-form {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+
+    .form-header h2 {
+        font-size: 24px;
+    }
+
+    .form-header p {
+        font-size: 14px;
+    }
+}
+
+/* Tablet View (769px - 1023px) */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .header-container{
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .nav-links ul li{
+        font-size: 7px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .registration-topic {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .welcome-message p {
+        font-size: 17px;
+    }
+    
+    .registration-topic h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .registration-steps {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;    /* Center the content */
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    .image-container {
+        margin-bottom: 20px; /* Add space between image and steps */
+        text-align: center;
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    .steps-container {
+        width: 100%; /* Full width for steps */
+        text-align: center; /* Center text */
+    }
+    
+    .steps-container ul {
+        list-style-type: disc;
+        padding-left: 0;
+    }
+    
+    .steps-container ul li {
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: center; /* Center each bullet point */
+    }
+    
+    .hero-registration {
+        font-size: 50px;
+        padding: 40px;
+        height: 70vh;
+    }
+
+    .hero-content h2 {
+        font-size: 70px;
+    }
+
+    .registration-form {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 20px;
+    }
+
+    .form-header h2 {
+        font-size: 24px;
+    }
+
+    .form-header p {
+        font-size: 14px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr; /* Two columns for tablet view */
+    }
+
+    .social-icons {
+        gap: 20px; /* Reduce gap between icons */
+    }
+
+    .footer-nav a {
+        width: 100%; /* Make navigation links full width */
+    }
+
+    .footer-nav {
+        margin-right: 20px;
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .header-container{
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .nav-links ul li{
+        font-size: 7px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nav-links ul {
+        display : flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 5px;
+    }
+
+    body, html{
+        overflow-x: hidden;
+    }
+
+    .welcome-message p {
+        font-size: 16px;
+    }
+
+    .registration-topic {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .registration-topic h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .registration-steps {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;    /* Center the content */
+        padding: 20px;
+    }
+    
+    .image-container {
+        margin-bottom: 20px; /* Add space between image and steps */
+        text-align: center;
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    .steps-container {
+        width: 100%; /* Full width for steps */
+        text-align: center; /* Center text */
+    }
+    
+    .steps-container ul {
+        list-style-type: disc;
+        padding-left: 0;
+    }
+    
+    .steps-container ul li {
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: center; /* Center each bullet point */
+    }
+
+    .hero-registration {
+        font-size: 30px;
+        padding: 20px;
+        height: 60vh;
+    }
+
+    .hero-content h2 {
+        font-size: 60px;
+    }
+
+    .registration-form {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr; /* Stack all elements in one column */
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .footer-left,
+    .footer-nav,
+    .footer-contacts,
+    .footer-socials {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100px; /* Smaller logo for mobile */
+    }
+
+    .footer-nav a {
+        width: 100%; /* Full width navigation links */
+    }
+
+    .social-icons {
+        display: flex; /* Ensure flexbox layout */
+        flex-direction: row; /* Align icons in a row */
+        justify-content: center; /* Center the icons horizontally */
+        gap: 10px; /* Adjust gap between icons */
+    }
+    
+    .footer-nav,
+    .footer-contacts,
+    .footer-socials {
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+    
+    .footer-left p {
+        font-size: 12px; /* Slightly smaller text for mobile */
+    }
+
+    .footer-nav {
+        margin-right: 30px;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+    .header-container{
+        flex-direction: column;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 5px;
+        flex-direction: column;
+    }
+
+    .nav-links ul li{
+        font-size: 7px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .nav-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 5px;
+    }
+    
+    body, html{
+        overflow-x: hidden;
+    }
+
+    .welcome-message p {
+        font-size: 14px;
+    }
+
+    .registration-topic {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .registration-topic h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .registration-steps {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;    /* Center the content */
+        padding: 20px;
+        border-radius: 8px;
+    }
+    
+    .image-container {
+        margin-bottom: 20px; /* Add space between image and steps */
+        text-align: center;
+    }
+    
+    .image-container img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        padding: 5px;
+        border-radius: 8px;
+    }
+    
+    .steps-container {
+        width: 100%; /* Full width for steps */
+        text-align: center; /* Center text */
+    }
+    
+    .steps-container ul {
+        list-style-type: disc;
+        padding-left: 0;
+    }
+    
+    .steps-container ul li {
+        font-size: 15px;
+        line-height: 1.5;
+        text-align: center; /* Center each bullet point */
+    }
+
+    .hero-registration {
+        font-size: 30px;
+        padding: 20px;
+        height: 60vh;
+    }
+
+    .hero-content h2 {
+        font-size: 50px;
+    }
+
+    .registration-form {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .form-header h2 {
+        font-size: 20px;
+    }
+
+    .form-header p {
+        font-size: 14px;
+    }
+    
+    .fieldset legend {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .form-group {
+        font-size: 14px;
+    }
+
+    .form-actions button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr; /* Stack all elements in one column */
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .footer-left,
+    .footer-nav,
+    .footer-contacts,
+    .footer-socials {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 100px; /* Smaller logo for mobile */
+    }
+
+    .footer-nav a {
+        width: 100%; /* Full width navigation links */
+    }
+
+    .social-icons {
+        display: flex; /* Ensure flexbox layout */
+        flex-direction: row; /* Align icons in a row */
+        justify-content: center; /* Center the icons horizontally */
+        gap: 10px; /* Adjust gap between icons */
+    }
+    
+    .footer-nav,
+    .footer-contacts,
+    .footer-socials {
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+    
+    .footer-left p {
+        font-size: 12px; /* Slightly smaller text for mobile */
+    }
+
+    .footer-nav {
+        margin-right: 20px;
+    }
+
+}
