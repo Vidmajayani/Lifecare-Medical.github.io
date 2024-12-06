@@ -532,7 +532,7 @@ td {
 
 .hero-services-section {
     position: relative;
-    background-image: url('/Images/Hhero_services.webp'); /* Add your background image here */
+    background-image: url('../Images/Hhero_services.webp'); /* Add your background image here */
     background-size: cover;
     background-position: center;
     height: 80vh;
