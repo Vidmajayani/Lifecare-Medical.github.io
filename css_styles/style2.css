@@ -362,12 +362,13 @@ footer {
 .medicine-item button {
     margin-top: 10px;
     padding: 8px 15px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #004080;
+    color: #FFFFFF;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-weight: bold;
 }
 
 .medicine-item button:hover {
