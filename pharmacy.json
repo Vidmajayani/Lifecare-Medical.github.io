@@ -1,42 +1,42 @@
 {
   "ANALGESICS": [
-    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "Image of Paracetamol" },
-    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "Image of Ibuprofen" },
-    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "Image of Aspirin" },
-    { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "Image of Morphine" },
-    { "name": "Codeine", "price": 50.00, "image": "Images/CODEINE1.jpg", "alt": "Image of Codeine" },
-    { "name": "Tramadol", "price": 20.00, "image": "Images/TRAMADOL1.jpg", "alt": "Image of Tramadol" }
+    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "" },
+    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "" },
+    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "" },
+    { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "" },
+    { "name": "Codeine", "price": 50.00, "image": "Images/CODEINE1.jpg", "alt": "" },
+    { "name": "Tramadol", "price": 20.00, "image": "Images/TRAMADOL1.jpg", "alt": "" }
   ],
   "ANTIBIOTICS": [
-    { "name": "Amoxicillin", "price": 16.56, "image": "Images/AMOXICILLIN2.jpeg", "alt": "Image of Amoxicillin" },
-    { "name": "Ciprofloxacin", "price": 8.50, "image": "Images/CIPROFLOXACIN2.jpg", "alt": "Image of Ciprofloxacin" },
-    { "name": "Doxycycline", "price": 3.71, "image": "Images/DOXYCYCLINE2.jpg", "alt": "Image of Doxycycline" },
-    { "name": "Azithromycin", "price": 80.00, "image": "Images/AZITHROMYCIN2.jpg", "alt": "Image of Azithromycin" },
-    { "name": "Ceftriaxone", "price": 200.00, "image": "Images/CEFTRIAXONE2.jpeg", "alt": "Image of Ceftriaxone" },
-    { "name": "Metronidazole", "price": 2.58, "image": "Images/Metronidazole2.jpg", "alt": "Image of Metronidazole" }
+    { "name": "Amoxicillin", "price": 16.56, "image": "Images/AMOXICILLIN2.jpeg", "alt": "" },
+    { "name": "Ciprofloxacin", "price": 8.50, "image": "Images/CIPROFLOXACIN2.jpg", "alt": "" },
+    { "name": "Doxycycline", "price": 3.71, "image": "Images/DOXYCYCLINE2.jpg", "alt": "" },
+    { "name": "Azithromycin", "price": 80.00, "image": "Images/AZITHROMYCIN2.jpg", "alt": "" },
+    { "name": "Ceftriaxone", "price": 200.00, "image": "Images/CEFTRIAXONE2.jpeg", "alt": "" },
+    { "name": "Metronidazole", "price": 2.58, "image": "Images/Metronidazole2.jpg", "alt": "" }
   ],
   "ANTIDEPRESSANTS": [
-    { "name": "Sertraline", "price": 11.50, "image": "Images/SERTRALINE3.jpg", "alt": "Image of Sertraline" },
-    { "name": "Fluoxetine", "price": 6.90, "image": "Images/FLUOXETINE3.png", "alt": "Image of Fluoxetine" },
-    { "name": "Citalopram", "price": 79.31, "image": "Images/Citalopram3.jpg", "alt": "Image of Citalopram" },
-    { "name": "Escitalopram", "price": 60.99, "image": "Images/ESCITALOPRAM3.jpg", "alt": "Image of Escitalopram" },
-    { "name": "Bupropion", "price": 32.62, "image": "Images/BUPROPION3.png", "alt": "Image of Bupropion" },
-    { "name": "Venlafaxine", "price": 30.77, "image": "Images/VENLAFAXINE3.png", "alt": "Image of Venlafaxine" }
+    { "name": "Sertraline", "price": 11.50, "image": "Images/SERTRALINE3.jpg", "alt": "" },
+    { "name": "Fluoxetine", "price": 6.90, "image": "Images/FLUOXETINE3.png", "alt": "" },
+    { "name": "Citalopram", "price": 79.31, "image": "Images/Citalopram3.jpg", "alt": "" },
+    { "name": "Escitalopram", "price": 60.99, "image": "Images/ESCITALOPRAM3.jpg", "alt": "" },
+    { "name": "Bupropion", "price": 32.62, "image": "Images/BUPROPION3.png", "alt": "" },
+    { "name": "Venlafaxine", "price": 30.77, "image": "Images/VENLAFAXINE3.png", "alt": "" }
   ],
   "ANTIHISTAMINES": [
-    { "name": "Loratadine", "price": 8.00, "image": "Images/LORATADINE4.jpg", "alt": "Image of Loratadine" },
-    { "name": "Cetirizine", "price": 1.00, "image": "Images/CETIRIZINE4.jpg", "alt": "Image of Cetirizine" },
-    { "name": "Fexofenadine", "price": 7.00, "image": "Images/FEXOFENADINE4.jpg", "alt": "Image of Fexofenadine" },
-    { "name": "Diphenhydramine", "price": 504.00, "image": "Images/DIPHENHYDRAMINE4.jpg", "alt": "Image of Diphenhydramine" },
-    { "name": "Chlorphenmine", "price": 0.54, "image": "Images/CHLORPHENIRAMINE4.jpg", "alt": "Image of Chlorphenamine" },
-    { "name": "Promethazine", "price": 2.50, "image": "Images/PROMETHAZINE4.png", "alt": "Image of Promethazine" }
+    { "name": "Loratadine", "price": 8.00, "image": "Images/LORATADINE4.jpg", "alt": "" },
+    { "name": "Cetirizine", "price": 1.00, "image": "Images/CETIRIZINE4.jpg", "alt": "I" },
+    { "name": "Fexofenadine", "price": 7.00, "image": "Images/FEXOFENADINE4.jpg", "alt": "" },
+    { "name": "Diphenhydramine", "price": 504.00, "image": "Images/DIPHENHYDRAMINE4.jpg", "alt": "" },
+    { "name": "Chlorphenmine", "price": 0.54, "image": "Images/CHLORPHENIRAMINE4.jpg", "alt": "" },
+    { "name": "Promethazine", "price": 2.50, "image": "Images/PROMETHAZINE4.png", "alt": "" }
   ],
   "ANTIHYPERTENSIVES": [
-    { "name": "Amlodipine", "price": 2.07, "image": "Images/AMLODIPINE5.jpg", "alt": "Image of Amlodipine" },
-    { "name": "Lisinopril", "price": 16.10, "image": "Images/LISINOPRIL5.png", "alt": "Image of Lisinopril" },
-    { "name": "Losartan", "price": 3.50, "image": "Images/LOSARTAN5.jpg", "alt": "Image of Losartan" },
-    { "name": "Metoprolol", "price": 22.23, "image": "Images/METOPROLOL5.jpg", "alt": "Image of Metoprolol" },
-    { "name": "Atenolol", "price": 2.88, "image": "Images/Atenolol5.jpg", "alt": "Image of Atenolol" },
-    { "name": "Hydrochlorothiazide", "price": 0.60, "image": "Images/HYDRALAZINE5.jpg", "alt": "Image of Hydrochlorothiazide" }
+    { "name": "Amlodipine", "price": 2.07, "image": "Images/AMLODIPINE5.jpg", "alt": "" },
+    { "name": "Lisinopril", "price": 16.10, "image": "Images/LISINOPRIL5.png", "alt": "" },
+    { "name": "Losartan", "price": 3.50, "image": "Images/LOSARTAN5.jpg", "alt": "" },
+    { "name": "Metoprolol", "price": 22.23, "image": "Images/METOPROLOL5.jpg", "alt": "" },
+    { "name": "Atenolol", "price": 2.88, "image": "Images/Atenolol5.jpg", "alt": "" },
+    { "name": "Hydrochlorothiazide", "price": 0.60, "image": "Images/HYDRALAZINE5.jpg", "alt": "" }
   ]
 } 
