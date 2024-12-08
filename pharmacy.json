@@ -1,42 +1,42 @@
 {
   "ANALGESICS": [
-    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "" },
-    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "" },
-    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "" },
-    { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "" },
-    { "name": "Codeine", "price": 50.00, "image": "Images/CODEINE1.jpg", "alt": "" },
-    { "name": "Tramadol", "price": 20.00, "image": "Images/TRAMADOL1.jpg", "alt": "" }
+    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "Paracetamol packaging showing 500mg tablets" },
+    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "Ibuprofen packaging for pain relief" },
+    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "Aspirin box with dosage details" },
+    { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "Morphine vial for pain management" },
+    { "name": "Codeine", "price": 50.00, "image": "Images/CODEINE1.jpg", "alt": "Codeine tablets in blister packaging" },
+    { "name": "Tramadol", "price": 20.00, "image": "Images/TRAMADOL1.jpg", "alt": "Tramadol capsules for pain relief" }
   ],
   "ANTIBIOTICS": [
-    { "name": "Amoxicillin", "price": 16.56, "image": "Images/AMOXICILLIN2.jpeg", "alt": "" },
-    { "name": "Ciprofloxacin", "price": 8.50, "image": "Images/CIPROFLOXACIN2.jpg", "alt": "" },
-    { "name": "Doxycycline", "price": 3.71, "image": "Images/DOXYCYCLINE2.jpg", "alt": "" },
-    { "name": "Azithromycin", "price": 80.00, "image": "Images/AZITHROMYCIN2.jpg", "alt": "" },
-    { "name": "Ceftriaxone", "price": 200.00, "image": "Images/CEFTRIAXONE2.jpeg", "alt": "" },
-    { "name": "Metronidazole", "price": 2.58, "image": "Images/Metronidazole2.jpg", "alt": "" }
+    { "name": "Amoxicillin", "price": 16.56, "image": "Images/AMOXICILLIN2.jpeg", "alt": "Amoxicillin bottle showing 500mg dosage" },
+    { "name": "Ciprofloxacin", "price": 8.50, "image": "Images/CIPROFLOXACIN2.jpg", "alt": "Ciprofloxacin blister pack for bacterial infections" },
+    { "name": "Doxycycline", "price": 3.71, "image": "Images/DOXYCYCLINE2.jpg", "alt": "Doxycycline capsules in a bottle" },
+    { "name": "Azithromycin", "price": 80.00, "image": "Images/AZITHROMYCIN2.jpg", "alt": "Azithromycin packaging for respiratory infections" },
+    { "name": "Ceftriaxone", "price": 200.00, "image": "Images/CEFTRIAXONE2.jpeg", "alt": "Ceftriaxone injection vial" },
+    { "name": "Metronidazole", "price": 2.58, "image": "Images/Metronidazole2.jpg", "alt": "Metronidazole tablets for infection treatment" }
   ],
   "ANTIDEPRESSANTS": [
-    { "name": "Sertraline", "price": 11.50, "image": "Images/SERTRALINE3.jpg", "alt": "" },
-    { "name": "Fluoxetine", "price": 6.90, "image": "Images/FLUOXETINE3.png", "alt": "" },
-    { "name": "Citalopram", "price": 79.31, "image": "Images/Citalopram3.jpg", "alt": "" },
-    { "name": "Escitalopram", "price": 60.99, "image": "Images/ESCITALOPRAM3.jpg", "alt": "" },
-    { "name": "Bupropion", "price": 32.62, "image": "Images/BUPROPION3.png", "alt": "" },
-    { "name": "Venlafaxine", "price": 30.77, "image": "Images/VENLAFAXINE3.png", "alt": "" }
+    { "name": "Sertraline", "price": 11.50, "image": "Images/SERTRALINE3.jpg", "alt": "Sertraline tablets for depression and anxiety" },
+    { "name": "Fluoxetine", "price": 6.90, "image": "Images/FLUOXETINE3.png", "alt": "Fluoxetine capsules for mood disorders" },
+    { "name": "Citalopram", "price": 79.31, "image": "Images/Citalopram3.jpg", "alt": "Citalopram blister pack for anxiety treatment" },
+    { "name": "Escitalopram", "price": 60.99, "image": "Images/ESCITALOPRAM3.jpg", "alt": "Escitalopram bottle for depression therapy" },
+    { "name": "Bupropion", "price": 32.62, "image": "Images/BUPROPION3.png", "alt": "Bupropion tablets for smoking cessation and depression" },
+    { "name": "Venlafaxine", "price": 30.77, "image": "Images/VENLAFAXINE3.png", "alt": "Venlafaxine packaging for anxiety relief" }
   ],
   "ANTIHISTAMINES": [
-    { "name": "Loratadine", "price": 8.00, "image": "Images/LORATADINE4.jpg", "alt": "" },
-    { "name": "Cetirizine", "price": 1.00, "image": "Images/CETIRIZINE4.jpg", "alt": "I" },
-    { "name": "Fexofenadine", "price": 7.00, "image": "Images/FEXOFENADINE4.jpg", "alt": "" },
-    { "name": "Diphenhydramine", "price": 504.00, "image": "Images/DIPHENHYDRAMINE4.jpg", "alt": "" },
-    { "name": "Chlorphenmine", "price": 0.54, "image": "Images/CHLORPHENIRAMINE4.jpg", "alt": "" },
-    { "name": "Promethazine", "price": 2.50, "image": "Images/PROMETHAZINE4.png", "alt": "" }
+    { "name": "Loratadine", "price": 8.00, "image": "Images/LORATADINE4.jpg", "alt": "Loratadine tablets for allergy relief" },
+    { "name": "Cetirizine", "price": 1.00, "image": "Images/CETIRIZINE4.jpg", "alt": "Cetirizine box for hay fever and allergies" },
+    { "name": "Fexofenadine", "price": 7.00, "image": "Images/FEXOFENADINE4.jpg", "alt": "Fexofenadine blister pack for allergy relief" },
+    { "name": "Diphenhydramine", "price": 504.00, "image": "Images/DIPHENHYDRAMINE4.jpg", "alt": "Diphenhydramine capsules for sleep and allergies" },
+    { "name": "Chlorphenmine", "price": 0.54, "image": "Images/CHLORPHENIRAMINE4.jpg", "alt": "Chlorphenamine tablets for cold symptoms" },
+    { "name": "Promethazine", "price": 2.50, "image": "Images/PROMETHAZINE4.png", "alt": "Promethazine tablets for nausea and allergies" }
   ],
   "ANTIHYPERTENSIVES": [
-    { "name": "Amlodipine", "price": 2.07, "image": "Images/AMLODIPINE5.jpg", "alt": "" },
-    { "name": "Lisinopril", "price": 16.10, "image": "Images/LISINOPRIL5.png", "alt": "" },
-    { "name": "Losartan", "price": 3.50, "image": "Images/LOSARTAN5.jpg", "alt": "" },
-    { "name": "Metoprolol", "price": 22.23, "image": "Images/METOPROLOL5.jpg", "alt": "" },
-    { "name": "Atenolol", "price": 2.88, "image": "Images/Atenolol5.jpg", "alt": "" },
-    { "name": "Hydrochlorothiazide", "price": 0.60, "image": "Images/HYDRALAZINE5.jpg", "alt": "" }
+    { "name": "Amlodipine", "price": 2.07, "image": "Images/AMLODIPINE5.jpg", "alt": "Amlodipine blister pack for high blood pressure" },
+    { "name": "Lisinopril", "price": 16.10, "image": "Images/LISINOPRIL5.png", "alt": "Lisinopril tablets for blood pressure management" },
+    { "name": "Losartan", "price": 3.50, "image": "Images/LOSARTAN5.jpg", "alt": "Losartan tablets for hypertension treatment" },
+    { "name": "Metoprolol", "price": 22.23, "image": "Images/METOPROLOL5.jpg", "alt": "Metoprolol tablets for heart health" },
+    { "name": "Atenolol", "price": 2.88, "image": "Images/Atenolol5.jpg", "alt": "Atenolol packaging for blood pressure control" },
+    { "name": "Hydrochlorothiazide", "price": 0.60, "image": "Images/HYDRALAZINE5.jpg", "alt": "Hydrochlorothiazide pills for fluid retention" }
   ]
-} 
+}
