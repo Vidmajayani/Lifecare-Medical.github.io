@@ -1,8 +1,8 @@
 {
   "ANALGESICS": [
-    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "Paracetamol packaging showing 500mg tablets" },
-    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "Ibuprofen packaging for pain relief" },
-    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "Aspirin box with dosage details" },
+    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "medicine1" },
+    { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "medicine2" },
+    { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "medicine3" },
     { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "Morphine vial for pain management" },
     { "name": "Codeine", "price": 50.00, "image": "Images/CODEINE1.jpg", "alt": "Codeine tablets in blister packaging" },
     { "name": "Tramadol", "price": 20.00, "image": "Images/TRAMADOL1.jpg", "alt": "Tramadol capsules for pain relief" }
