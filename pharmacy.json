@@ -1,6 +1,6 @@
 {
   "ANALGESICS": [
-    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", "alt": "" },
+    { "name": "Paracetamol", "price": 2.60, "image": "Images/PARACETAMOL1.jpg", alt="" },
     { "name": "Ibuprofen", "price": 2.60, "image": "Images/IBUPROFEN1.jpg", "alt": "medicine2" },
     { "name": "Aspirin", "price": 3.26, "image": "Images/ASPIRIN1.png", "alt": "medicine3" },
     { "name": "Morphine", "price": 85.80, "image": "Images/Morphine1.jpg", "alt": "Morphine vial for pain management" },
