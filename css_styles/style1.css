@@ -552,7 +552,7 @@ td {
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Styling for the container holding service boxes */
@@ -821,6 +821,7 @@ td {
     color: black; 
     line-height: 1.6;
     text-align: center;
+    font-weight: bold;
 }
 
 section.doctors-departments {
