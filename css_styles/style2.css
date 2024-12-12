@@ -308,7 +308,7 @@ footer {
 .pharmacy-intro p {
     color: whitesmoke;
     font-size: 16px;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -735,7 +735,6 @@ form button:hover {
 
     .pharmacy-intro p {
         font-size: 18px;
-        text-align: justify;
     }
 
     .medicine-category {
@@ -834,7 +833,6 @@ form button:hover {
 
     .pharmacy-intro p {
         font-size: 17px;
-        text-align: justify;
     }
 
     .medicine-category {
@@ -982,7 +980,6 @@ form button:hover {
 
     .pharmacy-intro p {
         font-size: 16px;
-        text-align: justify;
     }
 
     #medicine-section {
@@ -1194,7 +1191,6 @@ form button:hover {
 
     .pharmacy-intro p {
         font-size: 15px;
-        text-align: justify;
     }
 
     #medicine-section {
@@ -1408,7 +1404,6 @@ form button:hover {
 
     .pharmacy-intro p {
         font-size: 14px;
-        text-align: justify;
     }
 
     #medicine-section {
