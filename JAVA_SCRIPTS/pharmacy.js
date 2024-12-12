@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const img = document.createElement("img");
                 img.src = medicine.image;
-                img.alt = medicine.name;
+                img.alt = medicine.alt;
                 itemContainer.appendChild(img);
 
                 const name = document.createElement("h3");
